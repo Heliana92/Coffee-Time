@@ -227,6 +227,12 @@ p {
     min-height: 600px;   
 }
 
+.ImagenPreparación {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
   /*------------------------------Estilos recetas------------------------------*/
   .banner-recetas {
     background-image: url('../IMAGENES/RECETAS/banner\ recetas.jpg');
