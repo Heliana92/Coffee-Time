@@ -205,6 +205,12 @@ p {
     min-height: 600px;   
 }
 
+.ImagenClaseCAfe {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+
   /*------------------------------Estilos metodos------------------------------*/
   .banner-metodos {
     background-image: url('../IMAGENES/METODOS/banner\ preparacion.jpg');
