@@ -1,8 +1,11 @@
+/*------Estilos SCSS------*/
+$fuente-principal: 'Poppins', sans-serif;
+
 /*------------------------------Estilos Index------------------------------*/
 /*------Estilos Header------*/
 
 .navbar {
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuente-principal;
     font-size: medium;
     font-weight: 500;
     color: black
@@ -35,7 +38,7 @@
 }
 
 .Tituloprincipal{
-    font-family:'Poppins', sans-serif;
+    font-family: $fuente-principal;
     font-weight: bold; 
     letter-spacing: 2px;
     font-size: 50px;
@@ -56,14 +59,14 @@
 
 /*------Estilos primera sección------*/
 h2.text-center {
-    font-family: 'Poppins', sans-serif; 
+    font-family: $fuente-principal; 
     font-size: 25px; 
     font-weight: bold;  
     margin-bottom: 20px; 
 }
 
 p.justificado-principal {
-    font-family: 'Poppins', sans-serif; 
+    font-family: $fuente-principal; 
     font-size: 18px; 
     text-align: justify; 
 }
@@ -72,14 +75,14 @@ p.justificado-principal {
 
 /* Estilos items col*/
 h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuente-principal;
     font-size: 20px;
     font-weight: bold;
 }
 
 /* Estilos para los párrafos de los items */
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuente-principal;
     font-size: 14px;
 }
 
@@ -139,7 +142,7 @@ p {
 .btn-primary { 
     background-color: rgb(157, 21, 21);
     border-color: rgb(157, 21, 21);
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuente-principal;
     font-size: small;
     font-weight: normal;
 }
@@ -170,20 +173,20 @@ p {
 
   /* Estilo primera sección */
   .justificado-secundario {
-    font-family: 'Poppins', sans-serif; 
+    font-family: $fuente-principal; 
     font-size: 14px; 
     text-align: justify;
   }
 
     /* Estilo segunda sección */
   .h3 .text-center {
-    font-family: 'Poppins', sans-serif;
+    font-family: $fuente-principal;
     font-size: 20px;
     font-weight: bold;
   }
 
   p.justificado-secundario {
-    font-family: 'Poppins', sans-serif; 
+    font-family: $fuente-principal; 
     font-size: 14px; 
     text-align: justify; 
   }
@@ -252,7 +255,7 @@ p {
 .FiltrosRecetas {
     margin-bottom: 10px;
         margin-top: 10px;
-        font-family:  'Poppins', sans-serif;
+        font-family:  $fuente-principal;
         outline: 0;
         background: #ffffff;
         color: #fff;

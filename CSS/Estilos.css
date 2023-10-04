@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/*------Estilos SCSS------*/
+/*------------------------------Estilos Index------------------------------*/
+/*------Estilos Header------*/
+/* line 7, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+  font-weight: 500;
+  color: black;
+}
+
+/* line 14, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.navbar-nav .nav-item .nav-link:hover {
+  font-weight: bold;
+  font-size: medium;
+  transform: scale(1);
+}
+
+/* line 20, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.navbar-nav .nav-item .nav-link {
+  margin-right: 10px;
+}
+
+/*------Estilos banner------*/
+/* line 25, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.banner-principal {
+  background-image: url("../IMAGENES/INDEX/banner/fresh-coffee-steams-wooden-table-close-up-generative-ai.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+  position: relative;
+  padding: 20px;
+  color: #fff;
+  min-height: 600px;
+}
+
+/* line 40, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.Tituloprincipal {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Overlay banner*/
+/* line 50, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.overlay-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /*z-index: -1;*/
+}
+
+/*------Estilos primera sección------*/
+/* line 61, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+h2.text-center {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* line 68, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+p.justificado-principal {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+/*------Estilos segunda sección------*/
+/* Estilos items col*/
+/* line 77, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Estilos para los párrafos de los items */
+/* line 84, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+/* Estilos para las imágenes de los items */
+/* line 90, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.img-cafe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+/* Estilos para la imagen central */
+/* line 99, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.text-center .img-fluid.mx-auto.my-auto {
+  display: block;
+  margin: 0 auto;
+}
+
+/*------Estilos tercera sección------ */
+/* line 106, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.custom-column {
+  position: relative;
+}
+
+/* line 110, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.background-image {
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/* line 117, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.background-image-2 {
+  background-size: cover;
+  background-position: center;
+  height: 584px;
+  position: relative;
+}
+
+/* line 124, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 133, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/* line 142, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.btn-primary {
+  background-color: #9d1515;
+  border-color: #9d1515;
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+  font-weight: normal;
+}
+
+/* line 150, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.btn-primary:hover {
+  background-color: #030303;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+/*------------------------------Estilos Origen------------------------------*/
+/* line 159, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.banner-Origen {
+  background-image: url("../IMAGENES/ORIGEN/banner origen.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+  position: relative;
+  padding: 20px;
+  color: #fff;
+  min-height: 600px;
+}
+
+/* Estilo primera sección */
+/* line 175, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.justificado-secundario {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  text-align: justify;
+}
+
+/* Estilo segunda sección */
+/* line 182, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.h3 .text-center {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 188, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+p.justificado-secundario {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  text-align: justify;
+}
+
+/*------------------------------Estilos tipos------------------------------*/
+/* line 196, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.banner-tipos {
+  background-image: url("../IMAGENES/TIPOS/Tipos_de_cafe.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+  position: relative;
+  padding: 20px;
+  color: #fff;
+  min-height: 600px;
+}
+
+/* line 211, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.ImagenClaseCAfe {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+}
+
+/*------------------------------Estilos metodos------------------------------*/
+/* line 218, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.banner-metodos {
+  background-image: url("../IMAGENES/METODOS/banner preparacion.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+  position: relative;
+  padding: 20px;
+  color: #fff;
+  min-height: 600px;
+}
+
+/* line 233, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.ImagenPreparación {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/*------------------------------Estilos recetas------------------------------*/
+/* line 240, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.banner-recetas {
+  background-image: url("../IMAGENES/RECETAS/banner recetas.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+  position: relative;
+  padding: 20px;
+  color: #fff;
+  min-height: 600px;
+}
+
+/* line 255, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.FiltrosRecetas {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+  background: #ffffff;
+  color: #fff;
+  padding: 4px;
+  border-radius: 9px;
+  border: 2px solid black;
+  color: black;
+}
+
+/* line 268, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.ImagenRecetas {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=Estilos.css.map */
