@@ -1,6 +1,7 @@
 /*------Estilos SCSS------*/
 $fuente-principal: 'Poppins', sans-serif;
 
+
 /*------------------------------Estilos Index------------------------------*/
 /*------Estilos Header------*/
 
@@ -207,12 +208,12 @@ p {
     color: #fff;
     min-height: 600px;   
 }
-
-.ImagenClaseCAfe {
-    width: 30%;
-    height: auto;
-    object-fit: cover;
+.h2, h2 {
+    font-family: $fuente-principal;
+    font-size: 24px;
+    font-weight: bold; /* Peso de la fuente */  
 }
+
 
   /*------------------------------Estilos metodos------------------------------*/
   .banner-metodos {
