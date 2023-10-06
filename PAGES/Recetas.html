@@ -65,60 +65,72 @@
   
  <!-- Remplazar codigo -->
  <main class="container">
-  <section>
-    <div><form action="Bebidas">
-      <select name="Bibidas" class="FiltrosRecetas" id="Bebidas">
-        <option value="Bibidas">Bibidas</option>
-        <option value="Lorem ipsum">Lorem ipsum</option>
-        <option value="Lorem ipsum">Lorem ipsum</option>
-        <option value="Lorem ipsum">Lorem ipsum</option>
-        <option value="Lorem ipsum">Lorem ipsum</option>
-      </select></form></div>
+  <section class="row my-4">
 
-      <div><form action="Postres">
-        <select name="Postres" class="FiltrosRecetas" id="Postres">
-          <option value="Postres">Postres</option>
-          <option value="Lorem ipsum">Lorem ipsum</option>
-          <option value="Lorem ipsum">Lorem ipsum</option>
-          <option value="Lorem ipsum">Lorem ipsum</option>
-          <option value="Lorem ipsum">Lorem ipsum</option>
-        </select></form></div>
-
-        <div><form action="Alchol">
-          <select name="Alchol" class="FiltrosRecetas" id="Alchol">
-            <option value="Alchol">Alchol</option>
-            <option value="Lorem ipsum">Lorem ipsum</option>
-            <option value="Lorem ipsum">Lorem ipsum</option>
-            <option value="Lorem ipsum">Lorem ipsum</option>
-            <option value="Lorem ipsum">Lorem ipsum</option>
-          </select></form></div>
-
-          <div><form action="Sal">
-            <select name="Sal" class="FiltrosRecetas" id="Sal">
-              <option value="Sal">Sal</option>
-              <option value="Lorem ipsum">Lorem ipsum</option>
-              <option value="Lorem ipsum">Lorem ipsum</option>
-              <option value="Lorem ipsum">Lorem ipsum</option>
-              <option value="Lorem ipsum">Lorem ipsum</option>
-            </select></form></div>
-  </section>
-
-<section>
-<div>
-<h2>Galletas de café</h2>
-<img src="../IMAGENES/RECETAS/galletas de cafe.jpg" alt="Galletas de café" class="ImagenRecetas">
+    <!-- Filtros en 4 columnas -->
+<div class="col-md-3 filtro-desplegable">
+  <form action="Bebidas">
+    <div class="form-group">
+      <i class="fas fa-chevron-down"></i>
+      <select name="Bebidas" class="form-control FiltrosRecetas" id="Bebidas">
+        <option value="Bibidas">Bebidas</option>
+      </select>
+    </div>
+  </form>
 </div>
 
-<div>
-<h2>Tortas de café</h2>
-<img src="../IMAGENES/RECETAS/torta de cafe2.jpg" alt="Torta de café" class="ImagenPreparación">
+    <div class="col-md-3">
+      <form action="Postres">
+        <div class="form-group">
+          <select name="Postres" class="form-control FiltrosRecetas" id="Postres">
+            <option value="Postres">Postres</option>
+          </select>
+        </div>
+      </form>
+    </div>
 
-<div>
-  <h2>Tiramisú</h2>
-  <img src="../IMAGENES/RECETAS/tiramisu.jpg" alt="Pan de café" class="ImagenPreparación">
- </section>
+    <div class="col-md-3">
+      <form action="Alchol">
+        <div class="form-group">
+          <select name="Alchol" class="form-control FiltrosRecetas" id="Alchol">
+            <option value="Alchol">Alchol</option>
+          </select>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-3">
+      <form action="Sal">
+        <div class="form-group">
+          <select name="Sal" class="form-control FiltrosRecetas" id="Sal">
+            <option value="Sal">Sal</option>
+          </select>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+    <!-- Imágenes en 3 columnas -->
+    <h2 class="text-center my-5">Postres</h2>
+    <section class="row mt-4">
+      <div class="col-md-4 mb-4 text-center">
+        <h3>Galletas de café</h3>
+        <img src="../IMAGENES/RECETAS/galletas de cafe.jpg" alt="Galletas de café" class="img-fluid ImagenRecetas mx-auto">
+      </div>
+    
+      <div class="col-md-4 mb-4 text-center">
+        <h3>Tortas de café</h3>
+        <img src="../IMAGENES/RECETAS/torta de cafe2.jpg" alt="Torta de café" class="img-fluid ImagenPreparación mx-auto">
+      </div>
+    
+      <div class="col-md-4 mb-4 text-center">
+        <h3>Tiramisú</h3>
+        <img src="../IMAGENES/RECETAS/tiramisu.jpg" alt="Tiramisú" class="img-fluid ImagenPreparación mx-auto">
+      </div>
+    </section>
+  </section>
 </main>
-
 
  <!-- Footer -->
 <footer class="bg-dark text-white py-3">
