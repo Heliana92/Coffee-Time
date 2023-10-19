@@ -295,4 +295,11 @@ p.justificado-secundario {
   object-fit: cover;
 }
 
+/* line 275, ../../../OneDrive/Escritorio/PROYECTO DESAROLLO/Coffee Time/scss/Estilos.scss */
+.form-image {
+  width: 600px;
+  height: 650px;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=Estilos.css.map */
