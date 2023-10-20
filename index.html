@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+    <!-- animación -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <!--Hoja de estilos-->
     <link rel="stylesheet" href="CSS/Estilos.css">
 
@@ -75,7 +78,7 @@
 <!-- Primera sección -->
 <main class="container">
 <section>
-    <div class="pt-5">
+    <div class="pt-5" data-aos="fade-up">
         <h2 class="text-center">¿Qué es Coffee Time?</h2>
         <p class="justificado-principal">Es una plataforma dedicada completamente al apasionante mundo del café. Aquí, los amantes del café y curiosos pueden explorar desde el origen y cultivo de los granos hasta los tipos y métodos de preparación. Descubre el rico y diverso universo del café con nosotros y disfruta de una experiencia completa dedicada a esta maravillosa bebida. ¡Bienvenido a Coffee Time!</p>
     </div>
@@ -83,12 +86,12 @@
 
 <!-- Segunda sección -->
 <section>
-    <div class="pt-5">
+    <div class="pt-5" data-aos="fade-up">
         <h2 class="text-center">Atributos de un café especial</h2>
     <div>
         <div class="row">
             <!-- Columna izquierda -->
-            <div class="col-md-4 my-3">
+            <div class="col-md-4 my-3" data-aos="fade-right">
                 <!-- Item 1 -->
                 <div class="row pb-2">
                     <div class="col-8">
@@ -100,7 +103,7 @@
                     </div>
                 </div>
                 <!-- Item 2 -->
-                <div class="row pb-2">
+                <div class="row pb-2" data-aos="fade-right">
                     <div class="col-8">
                         <h3>Cosecha</h3>
                         <p>El café se recolecta manualmente en puntos de maduración altos para garantizar una calidad excepcional.</p>
@@ -110,7 +113,7 @@
                     </div>
                 </div>
                 <!-- Item 3 -->
-                <div class="row pb-2">
+                <div class="row pb-2" data-aos="fade-right">
                     <div class="col-8">
                         <h3>Selección</h3>
                         <p>Identificar el pergamino más saludable y grande es esencial para garantizar la calidad del producto.</p>
@@ -122,12 +125,12 @@
             </div>
 
             <!-- Columna central -->
-            <div class="col-md-4 my-3 text-center">
+            <div class="col-md-4 my-3 text-center" data-aos="zoom-in">
                 <img src="IMAGENES/INDEX/imagen-cafe-hom3.png" alt="imagen central" class="img-fluid mx-auto my-auto">
             </div>
 
             <!-- Columna derecha -->
-            <div class="col-md-4 my-3">
+            <div class="col-md-4 my-3" data-aos="fade-left">
                 <!-- Item 1 -->
                 <div class="row" pb-2>
                     <div class="col-4 align-self-center">
@@ -139,7 +142,7 @@
                     </div>
                 </div>
                 <!-- Item 2 -->
-                <div class="row">
+                <div class="row" data-aos="fade-left">
                     <div class="col-4 align-self-center">
                         <img class="img-cafe" src="IMAGENES/INDEX/iconos/calidad.png" alt="calidad">
                     </div>
@@ -149,7 +152,7 @@
                     </div>
                 </div>
                 <!-- Item 3 -->
-                <div class="row" pb-2>
+                <div class="row" pb-2 data-aos="fade-left">
                     <div class="col-4 align-self-center">
                         <img class="img-cafe" src="IMAGENES/INDEX/iconos/aroma.png" alt="aroma">
                     </div>
@@ -167,7 +170,7 @@
 <section>
 <div class="container">
         <div class="row">
-            <div class="col-md-4 custom-column">
+            <div class="col-md-4 custom-column" data-aos="fade-right">
                 <div class="background-image-2 mb-md-0 mb-4" style="background-image: url('IMAGENES/INDEX/section-origen.png');">
                     <div class="overlay"></div>
                     <div class="center-text">
@@ -176,7 +179,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 custom-column">
+            <div class="col-md-4 custom-column" data-aos="fade-down">
                 <div class="background-image mb-4" style="background-image: url('IMAGENES/INDEX/section-tipos.png');">
                     <div class="overlay"></div>
                     <div class="center-text">
@@ -184,7 +187,7 @@
                         <a href="PAGES/tipos.html" class="btn btn-primary">Conocer más</a>
                     </div>
                 </div>
-                <div class="background-image mb-4" style="background-image: url('IMAGENES/INDEX/section-recetas.png');">
+                <div class="background-image mb-4" style="background-image: url('IMAGENES/INDEX/section-recetas.png');" data-aos="fade-up">
                     <div class="overlay"></div>
                     <div class="center-text">
                         <h2 class="mb-4">Recetas</h2>
@@ -192,7 +195,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 custom-column">
+            <div class="col-md-4 custom-column" data-aos="fade-left">
                 <div class="background-image-2" style="background-image: url('IMAGENES/INDEX/section-preparacion.png');">
                     <div class="overlay"></div>
                     <div class="center-text">
@@ -217,5 +220,10 @@
       
     <!-- IMPORTANTE NO BORRAR -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+    <!-- animanción -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
 </html>
